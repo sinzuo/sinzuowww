@@ -1,33 +1,43 @@
-## 什么是OpenWrt？
+## docker 安装
+在终端中运行下面的命令安装 Docker。
+curl -sSL https://get.daocloud.io/docker | sh
 
-OpenWrt是一款基于Linux的操作系统，主要用于路由器。…… \> [新手指南](/docs/beginners-guide/)
+Docker Compose
+Docker Compose 是 Docker 官方编排（Orchestration）项目之一，负责快速在集群中部署分布式应用。 你可以也通过执行下面的命令，高速安装Docker Compose。  
+curl -L https://get.daocloud.io/docker/compose/releases/download/1.12.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose  
+chmod +x /usr/local/bin/docker-compose
 
-\> [支持的硬件](/docs/supported-devices/)
-
-## Openwrt X86 编译过程
-
-### 2015年9月，OpenWrt Chaos Calmer 15.05 正式版发布
-
-[http://downloads.openwrt.io/chaos\_calmer/15.05/](http://downloads.openwrt.io/chaos\_calmer/15.05/)
-
- * Linux kernel updated to version 3.18
- * Improved Security Features
- * Improved Networking Support
- * Platform and Driver Support
-
-### beego 框架说明
+## docker 卸载
 
 
-### beego 使用说明
- * 使用redis
- * 使用mongodb
- * 使用mysql
+## docker 使用规则
+1. build.sh
+        #!/bin/sh
+        cd /mnt/mkdocker
+        mkdocs build
+        rm -rf /usr/share/nginx/html/portal/site
+        cp /mnt/markdown/site /usr/share/nginx/html/portal/ -a
+
+2. Makefile 文件，make build 可以形成统一的images文件，make run
+
+build:
+        git clone https://github.com/visint/mkdocker
+        sudo docker build --rm -t mkdocker:1.0 .
+
+run:
+        sudo docker run -d --restart=always  --name mkdocker -v /home/jiang:/mnt -p 9091:80 mkdocker:1.0
  
 
-### docker 使用说明
+3. docker 运行后运行  docker exec -it mkdocker /mnt/mkdocker/build.sh
+
+### docker 运行参数标记说明
+ *  --restart=always
+ *  {$pwd}
+
+### Dockerfile 使用说明
+ *  ENV
 
 
-### 服务器管理
 
-### docker 集群操作
+
 
