@@ -27,7 +27,7 @@ pages:
     - 'mongodb文档': 'docs/file-mongodb-tools.md'
     - 'webshell文档': 'docs/file-shell.md'
     - 'snmp文档': 'docs/file-snmp.md'
-    - 'spring-boot文档': 'docs/file-sprint-boot.md'
+    - 'spring-boot文档': 'docs/file-spring-boot.md'
     - 'upload文档': 'docs/file-upload.md'
 
 - 关于我们: 'about.md'
