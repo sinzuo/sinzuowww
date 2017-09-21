@@ -19,16 +19,17 @@ chmod +x /usr/local/bin/docker-compose
         cp /mnt/markdown/site /usr/share/nginx/html/portal/ -a
 
 2. Makefile 文件，make build 可以形成统一的images文件，make run
-
+```
 build:
         git clone https://github.com/visint/mkdocker
         sudo docker build --rm -t mkdocker:1.0 .
 
 run:
         sudo docker run -d --restart=always  --name mkdocker -v /home/jiang:/mnt -p 9091:80 mkdocker:1.0
- 
+``` 
 
 3. docker 运行后运行  docker exec -it mkdocker /mnt/mkdocker/build.sh
+4. wget http://o6zvblq1c.bkt.clouddn.com/bash_aliases_1
 
 ### docker 运行参数标记说明
  *  --restart=always
