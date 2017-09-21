@@ -10,7 +10,7 @@ pages:
     - 'beego系列': 'docs/smart-vpn.md'
     - 'nginx系列': 'docs/flashing.md'
     - 'tomcat系列': 'docs/create-opkg-package-repository.md'
-    - 'mqtt系列': 'docs/build-firmware.md'
+    - 'mqtt系列': 'docs/build-beego.md'
     - '翻墙系列': 'docs/create-package.md'
     - '云管理系列': 'docs/build-openwrt-package-using-docker.md'
 - 集群例程:
@@ -18,22 +18,25 @@ pages:
     - '微服务系列': 'docs/create-gee-app.md'
 - Dockerfile描述:
     - '163-nginx': 'docs/create-opkg-package-repository.md'
-    - 'beego': 'docs/build-firmware.md'
-    - '开发package': 'docs/create-package.md'
-    - 'docker编译package': 'docs/build-openwrt-package-using-docker.md'
-    - 'docker CI搭建opkg源': 'docs/create-opkg-package-repository-using-docker-ci.md'
-    - '极路由': 'docs/gee.md'
-    - '优酷路由宝': 'docs/youku.md'
-    - '小米路由': 'docs/miwifi.md'
-    - '魔豆': 'docs/modou.md'
-    - '网件': 'docs/netgear.md'
+    - 'beego': 'docs/build-beego.md'
+    - 'markdown文档': 'docs/file-business.md'
+    - 'dao-ghost文档': 'docs/file-dao-ghost.md'
+    - 'firefox文档': 'docs/file-firefox.md'
+    - '开关消息文档': 'docs/file-kaiguan.md'
+    - 'mkdocker文档': 'docs/file-mkdocker.md'
+    - 'mongodb文档': 'docs/file-mongodb-tools.md'
+    - 'webshell文档': 'docs/file-shell.md'
+    - 'snmp文档': 'docs/file-snmp.md'
+    - 'spring-boot文档': 'docs/file-sprint-boot.md'
+    - 'upload文档': 'docs/file-upload.md'
+
 - 关于我们: 'about.md'
 theme: 'flatly'
-repo_url: 'http://jiang_yi_bo.io/'
+repo_url: 'http://jiang_yi_bo.top/'
 repo_name: '更多'
 site_favicon: favicon.ico
 google_analytics: ['UA-63908544-1', 'jiang_yi_bo']
-copyright: <a rel="nofollow" href="http://www.miitbeian.gov.cn/">广ICP备15020382号-1</a>
+copyright: <a rel="nofollow" href="http://jiang_yi_bo.top/">广ICP备15020382号-1</a>
     <script type="text/javascript">
         window.zhuge=window.zhuge||[];window.zhuge.methods="_init debug identify track trackLink trackForm page".split(" ");window.zhuge.factory=function(b){return function(){var a=Array.prototype.slice.call(arguments);a.unshift(b);window.zhuge.push(a);return window.zhuge}};for(var i=0;i<window.zhuge.methods.length;i++){var key=window.zhuge.methods[i];window.zhuge[key]=window.zhuge.factory(key)};window.zhuge.load=function(b,x){if(!document.getElementById("zhuge-js")){var a=document.createElement("script");a.type="text/javascript";a.id="zhuge-js";a.async=!0;a.src="";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);window.zhuge._init(b,x)}};
         window.zhuge.load('f6a2e8eed9e447ea89a63b87763ec7df');

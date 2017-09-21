@@ -1,7 +1,8 @@
 #beego# cat Dockerfile 
-\# install beego
-\# version 1.0  
-  
+```
+# install beego
+# version 1.0  
+ 
 FROM jyb-ubuntu:16.04
 MAINTAINER jyb "jiang_yi_bo@gmail.com"  
  
@@ -24,3 +25,4 @@ WORKDIR /data/golang
 EXPOSE 22 8080  
  
 CMD ["/data/golang/hello"]
+```

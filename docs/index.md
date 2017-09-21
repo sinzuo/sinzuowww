@@ -12,12 +12,13 @@ chmod +x /usr/local/bin/docker-compose
 
 ## docker 使用规则
 1. build.sh
+```
         #!/bin/sh
         cd /mnt/mkdocker
         mkdocs build
         rm -rf /usr/share/nginx/html/portal/site
         cp /mnt/markdown/site /usr/share/nginx/html/portal/ -a
-
+```
 2. Makefile 文件，make build 可以形成统一的images文件，make run
 ```
 build:
@@ -36,7 +37,13 @@ run:
  *  {$pwd}
 
 ### Dockerfile 使用说明
- *  ENV
+ * ENV
+ * ADD ./hello.go /data/golang/hello.go
+ * RUN go build -o /data/golang/hello /data/golang/hello.go
+ * RUN chmod 755 /data/golang/hello
+ * WORKDIR /data/golang 
+ * EXPOSE 22 8080  
+ * CMD ["/data/golang/hello"]
 
 
 
