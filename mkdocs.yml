@@ -1,0 +1,43 @@
+site_name: 'jiang_yi_bo'
+pages:
+- 首页: 'index.md'
+- 产品文档:
+    - 'Z3750 系列': 'docs/beginners-guide.md'
+    - 'D525系列': 'docs/supported-devices.md'
+    - 'N270系列': 'docs/developer-guide.md'
+    - 'openwrt系列': 'docs/opkg.md'
+    - '爱快系列': 'docs/build-a-single-package.md'
+    - 'EPON系列': 'docs/smart-vpn.md'
+    - 'GPON系列': 'docs/flashing.md'
+    - 'AC控制器': 'docs/create-opkg-package-repository.md'
+    - '商业wifi': 'docs/build-firmware.md'
+    - '家庭wifi': 'docs/create-package.md'
+    - '粗波分': 'docs/build-openwrt-package-using-docker.md'
+    - '密集波分': 'docs/create-opkg-package-repository-using-docker-ci.md'
+- 编译方法:
+    - '开发极路由云插件': 'docs/create-gee-app.md'
+    - '开发极路由云插件': 'docs/create-gee-app.md'
+- 使用方法:
+    - '搭建opkg软件仓库': 'docs/create-opkg-package-repository.md'
+    - '编译固件': 'docs/build-firmware.md'
+    - '开发package': 'docs/create-package.md'
+    - 'docker编译package': 'docs/build-openwrt-package-using-docker.md'
+    - 'docker CI搭建opkg源': 'docs/create-opkg-package-repository-using-docker-ci.md'
+    - '极路由': 'docs/gee.md'
+    - '优酷路由宝': 'docs/youku.md'
+    - '小米路由': 'docs/miwifi.md'
+    - '魔豆': 'docs/modou.md'
+    - '网件': 'docs/netgear.md'
+- 关于我们: 'about.md'
+theme: 'flatly'
+repo_url: 'http://jiang_yi_bo.io/'
+repo_name: '更多'
+site_favicon: favicon.ico
+google_analytics: ['UA-63908544-1', 'jiang_yi_bo']
+copyright: <a rel="nofollow" href="http://www.miitbeian.gov.cn/">广ICP备15020382号-1</a>
+    <script type="text/javascript">
+        window.zhuge=window.zhuge||[];window.zhuge.methods="_init debug identify track trackLink trackForm page".split(" ");window.zhuge.factory=function(b){return function(){var a=Array.prototype.slice.call(arguments);a.unshift(b);window.zhuge.push(a);return window.zhuge}};for(var i=0;i<window.zhuge.methods.length;i++){var key=window.zhuge.methods[i];window.zhuge[key]=window.zhuge.factory(key)};window.zhuge.load=function(b,x){if(!document.getElementById("zhuge-js")){var a=document.createElement("script");a.type="text/javascript";a.id="zhuge-js";a.async=!0;a.src="";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);window.zhuge._init(b,x)}};
+        window.zhuge.load('f6a2e8eed9e447ea89a63b87763ec7df');
+        var duoshuoQuery = {short_name:"openwrtio"}; (function() { var ds = document.createElement('script'); ds.type = 'text/javascript';ds.async = true; ds.src = ''; ds.charset = 'UTF-8'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds); })();
+    </script>
+    
