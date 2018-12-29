@@ -38,4 +38,32 @@ enter:
 	sudo docker exec -it ftpd_server sh -c "export TERM=xterm && bash"
 
 
+
+
+## Build libev
+git clone https://github.com/enki/libev.git
+cd libev
+./configure --host=mipsel-openwrt-linux-musl
+DESTDIR=/tmp/rtty_install make install
+##Build libuwsc
+git clone https://github.com/zhaojh329/libuwsc.git
+cd libuwsc
+cmake . -DCMAKE_C_COMPILER=mipsel-openwrt-linux-musl-gcc -DCMAKE_FIND_ROOT_PATH=/tmp/rtty_install -DUWSC_SSL_SUPPORT=OFF
+DESTDIR=/tmp/rtty_install make install
+##Build rtty
+git clone https://github.com/zhaojh329/rtty.git
+cd rtty
+cmake . -DCMAKE_C_COMPILER=mipsel-openwrt-linux-musl-gcc -DCMAKE_FIND_ROOT_PATH=/tmp/rtty_install
+DESTDIR=/tmp/rtty_install make install
+
+uci add rtty rtty
+uci set rtty.@rtty[0].host='sinzuo.cn'
+uci set rtty.@rtty[0].port='5912'
+uci commit rtty
+
+git clone https://github.com/enki/libev.git
+git clone https://github.com/zhaojh329/libuwsc.git
+git clone https://github.com/zhaojh329/rtty.git
+
+
 ```
