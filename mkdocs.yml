@@ -33,6 +33,7 @@ pages:
     - '固件解压打包': 'docs/create-openwrt-image.md'
     - 'ubuntu制作下载': 'docs/create-ubuntun-run.md'   
     - 'Openwrt加载USB': 'docs/openwrt-usb.md'
+    - 'ubuntu加载overlayroot': 'docs/ubuntu-overlayroot.md'    
     
 
 - 关于我们: 'about.md'
