@@ -34,7 +34,7 @@ pages:
     - 'ubuntu制作下载': 'docs/create-ubuntun-run.md'   
     - 'Openwrt加载USB': 'docs/openwrt-usb.md'
     - 'ubuntu加载overlayroot': 'docs/ubuntu-overlayroot.md'    
-    
+    - 'openvpn说明': 'docs/build-openvpn.md'   
 
 - 关于我们: 'about.md'
 theme: 'flatly'

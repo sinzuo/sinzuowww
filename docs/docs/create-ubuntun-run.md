@@ -1,13 +1,3 @@
-## openvpn 用户说明
-
-
-文件名 | 是否必须 | 用途
------|----------|-----
-jiang       192.168.255.2
-jiangyibo   192.168.255.18
-bobo        192.168.255.14
-CLIENTNAME  192.168.255.10
-
 
 ##rtty 一键编译 openwrt安装过程
 主要参考  https://github.com/zhaojh329/
