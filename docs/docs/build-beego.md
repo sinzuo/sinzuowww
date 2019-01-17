@@ -1,4 +1,6 @@
-#beego# cat Dockerfile 
+#beego# 
+
+cat Dockerfile 
 ```
 # install beego
 # version 1.0  

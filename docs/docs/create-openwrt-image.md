@@ -10,6 +10,7 @@
 修改  git clone http://github.com/sinzuo/sinzuorom
 查看 
 解析固件脚本
+```
 cat sinzuo-dec.sh 
     #!/bin/sh
     EXTPATH=/home/jiang//work/lede-openwrt7621/
@@ -23,9 +24,11 @@ cat sinzuo-dec.sh
     dd if=$1 of=kernel.bin bs=1 ibs=1 count=$offset1
     dd if=$1 of=secondchunk.bin bs=1 ibs=1 count=$size2 skip=$offset1
     sudo  $EXTPATH/staging_dir/host/bin/unsquashfs4 secondchunk.bin
+```    
 执行方法 
 
 生成固件
+```
  cat sinzuo-rom.sh 
     #!/bin/sh
     EXTPATH=/home/jiang//work/lede-openwrt7621/
@@ -33,7 +36,7 @@ cat sinzuo-dec.sh
     test -f sinzuo-rom.bin && rm -rf sinzuo-rom.bin
     cat kernel.bin root.squashfs > sinzuo-rom.bin
     $EXTPATH/staging_dir/host/bin/padjffs2 sinzuo-rom.bin
-
+```
 
 只需要修改 EXTPATH 到 安装目录
 1.修改ip地址  
