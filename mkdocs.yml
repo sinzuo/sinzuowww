@@ -30,12 +30,15 @@ pages:
     - 'spring-boot文档': 'docs/file-spring-boot.md'
     - 'upload文档': 'docs/file-upload.md'
 - Openwrt描述:
+    - '固件编译': 'docs/create-openwrt-build.md'    
     - '固件解压打包': 'docs/create-openwrt-image.md'
     - 'ubuntu制作下载': 'docs/create-ubuntun-run.md'   
     - 'Openwrt加载USB': 'docs/openwrt-usb.md'
     - 'ubuntu加载overlayroot': 'docs/ubuntu-overlayroot.md'    
     - 'openvpn说明': 'docs/build-openvpn.md'  
     - 'netifd procd ubus说明': 'docs/create-openwrt-netifd.md' 
+    - 'dnsmasq安装': 'docs/create-dnsmas.md' 
+    
      
 
 - 关于我们: 'about.md'
