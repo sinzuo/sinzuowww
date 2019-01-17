@@ -42,7 +42,7 @@ chosen applications for your target system.
 ./scripts/feeds install -a -p packages
 ```
 
-4. 编译 一个包方法
+4. 编译 一个包方法 
 make ./package/feeds/management/freecwmp/clean
 
 make ./package/feeds/management/freecwmp/compile V=99 
@@ -67,9 +67,9 @@ make run
 
 ```
 修改Makefile 文件 指定源码位置  和dl 目录
-DLPATH:=/mnt/dShare/openwrtDir/dl
-VPATH:=/work/
--v $(VPATH):/mnt -v $(DLPATH):/root/dl  指定到docker-image里的位置
+DLPATH:=/mnt/dShare/openwrtDir/dl 
+VPATH:=/work/ 
+-v $(VPATH):/mnt -v $(DLPATH):/root/dl  指定到docker-image里的位置 
 
 ##下载好的dl包
 [openwrt dl 包下载](http://qq.sinzuo.com:9091/openwrt/openwrt-dl.vmdk)
