@@ -1,8 +1,8 @@
 ## openvpn 用户说明
 
 
-文件名 | 是否必须 | 用途
------|----------|-----
+文件名 | 是否必须 | 用途 | 下载
+-----|----------|-------------|--------
 jiang       192.168.255.2   [http://qq.sinzuo.com:9091/openvpn/jiang.ovpn](http://qq.sinzuo.com:9091/openvpn/jiang.ovpn)
 jiangyibo   192.168.255.18  [http://qq.sinzuo.com:9091/openvpn/jiangyibo.ovpn]
 (http://qq.sinzuo.com:9091/openvpn/jiangyibo.ovpn)
