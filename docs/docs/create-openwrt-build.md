@@ -19,6 +19,7 @@ make V=s
 ```
 
 2. sinzuo 固件源码 
+
 https://github.com/sinzuo/lede-openwrt.git newfifi 7621带修改默认配置的
 
 3. openwrt 开源地址
@@ -43,6 +44,7 @@ chosen applications for your target system.
 ```
 
 4. 编译 一个包方法 
+
 make ./package/feeds/management/freecwmp/clean
 
 make ./package/feeds/management/freecwmp/compile V=99 
