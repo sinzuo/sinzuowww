@@ -34,10 +34,7 @@ make kernel_menuconfig
 File systems  ---> <*> Native language support  --->   
   <*>   Codepage 437 (United States, Canada)   
   <*>   Simplified Chinese charset (CP936, GB2312)  
-1
-2
-3
-4
+
 硬盘自动挂载
 在source/package/base-files/files/etc/hotplug.d/block目录下添加脚本40-mount，如果没有直接创建
 

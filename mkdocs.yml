@@ -40,8 +40,12 @@ pages:
     - 'dnsmasq安装': 'docs/create-dnsmas.md' 
     - 'c语言操作uci': 'docs/openwrt-c-uci.md' 
     - 'udp上报路由器': 'docs/openwrt-udpreport.md' 
+    - '新增一个设备配置': 'docs/openwrt-adddevice.md'     
 - 明白活:    
-    - '道德经': 'docs/live-daodejing.md'     
+    - '道德经': 'docs/live-daodejing.md'   
+    - '任正非': 'docs/live-renzhengfei.md' 
+    - '阳明心学': 'docs/build-yangmingxinxue.md' 
+      
      
 
 - 关于我们: 'about.md'
