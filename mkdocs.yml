@@ -56,7 +56,6 @@ theme: 'flatly'
 repo_url: 'http://sinzuo.cn/'
 repo_name: '更多'
 site_favicon: favicon.ico
-google_analytics: ['UA-63908544-1', 'jiang_yi_bo']
 copyright: <a rel="nofollow" href="http://sinzuo.cn/">广ICP备15020382号-1</a>
  </br>本文版权归jiang_yi_bo所有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接。
     <script type="text/javascript">
